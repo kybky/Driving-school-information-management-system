@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BB43E4C-5D4E-4708-B0A1-1C2DBD2BB1C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>驾校信息管理系统</RootNamespace>
+    <AssemblyName>驾校信息管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="公告页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="公告页面.designer.cs">
+      <DependentUpon>公告页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="学员个人信息页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="学员个人信息页面.designer.cs">
+      <DependentUpon>学员个人信息页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="学员页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="学员页面.designer.cs">
+      <DependentUpon>学员页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="教练_学员信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="教练_学员信息.Designer.cs">
+      <DependentUpon>教练_学员信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="教练_信息通信.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="教练_信息通信.Designer.cs">
+      <DependentUpon>教练_信息通信.cs</DependentUpon>
+    </Compile>
+    <Compile Include="教练_教练个人信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="教练_教练个人信息.Designer.cs">
+      <DependentUpon>教练_教练个人信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="教练_请假申报.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="教练_请假申报.Designer.cs">
+      <DependentUpon>教练_请假申报.cs</DependentUpon>
+    </Compile>
+    <Compile Include="教练页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="教练页面.Designer.cs">
+      <DependentUpon>教练页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="消息页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="消息页面.designer.cs">
+      <DependentUpon>消息页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="添加学员页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="添加学员页面.Designer.cs">
+      <DependentUpon>添加学员页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="添加教练页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="添加教练页面.Designer.cs">
+      <DependentUpon>添加教练页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="添加管理员页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="添加管理员页面.Designer.cs">
+      <DependentUpon>添加管理员页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="登录页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登录页面.Designer.cs">
+      <DependentUpon>登录页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="注册页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="注册页面.Designer.cs">
+      <DependentUpon>注册页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员消息页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员消息页面.designer.cs">
+      <DependentUpon>管理员消息页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员页面.Designer.cs">
+      <DependentUpon>管理员页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="账户设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="账户设置.designer.cs">
+      <DependentUpon>账户设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="预约练车页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="预约练车页面.designer.cs">
+      <DependentUpon>预约练车页面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="驾考成绩页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="驾考成绩页面.designer.cs">
+      <DependentUpon>驾考成绩页面.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="公告页面.resx">
+      <DependentUpon>公告页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="学员个人信息页面.resx">
+      <DependentUpon>学员个人信息页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="学员页面.resx">
+      <DependentUpon>学员页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="教练_学员信息.resx">
+      <DependentUpon>教练_学员信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="教练_信息通信.resx">
+      <DependentUpon>教练_信息通信.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="教练_教练个人信息.resx">
+      <DependentUpon>教练_教练个人信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="教练_请假申报.resx">
+      <DependentUpon>教练_请假申报.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="教练页面.resx">
+      <DependentUpon>教练页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="注册页面.resx">
+      <DependentUpon>注册页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="消息页面.resx">
+      <DependentUpon>消息页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="添加学员页面.resx">
+      <DependentUpon>添加学员页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="添加教练页面.resx">
+      <DependentUpon>添加教练页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="添加管理员页面.resx">
+      <DependentUpon>添加管理员页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登录页面.resx">
+      <DependentUpon>登录页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="管理员消息页面.resx">
+      <DependentUpon>管理员消息页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员页面.resx">
+      <DependentUpon>管理员页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="账户设置.resx">
+      <DependentUpon>账户设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="预约练车页面.resx">
+      <DependentUpon>预约练车页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="驾考成绩页面.resx">
+      <DependentUpon>驾考成绩页面.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
