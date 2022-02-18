@@ -91,19 +91,19 @@
 
 E-R模型：
 
-![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/1.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/37.png)
 
 图 2-1 **学员实体**
 
-![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/2.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/38.png)
 
 图 2-2 **教练实体**
 
-![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/3.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/39.png)
 
 图 2-3 **管理员实体**
 
-![](media/2aaa4127e8cdc5aec82c2b203e29932a.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/40.png)
 
 图 2-4 **全局E-R**
 
@@ -244,27 +244,27 @@ E-R模型：
 
 1.  数据库建立
 
-![](media/1dcdce9df56939fe9f5871a73b8c6693.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/1.png)
 
 图 5-1-1 建数据库
 
 1.  数据表建立
 
-![](media/44563493e95e4dfcffd5477bca91e4d0.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/2.png)
 
 图 5- 2 - 1 管理员表
 
-![](media/b2e30e08610f84077367ffb900e43595.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/3.png)
 
 图 5- 2 - 2 教练表
 
-![](media/f516afedb0540e130f8684a57559447e.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/4.png)
 
 图 5- 2 - 3 学员表
 
-![](media/bf76e6ec23688655e7516e3c0effcd05.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/5.png)
 
-图 5- 2 - 4 学员表![](media/7cabcbad933fc5057c03aad1caf73917.png)
+图 5- 2 - 4 学员表![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/6.png)
 
 图 5- 2 - 5 学员表
 
@@ -272,9 +272,9 @@ E-R模型：
 
 1、软件总体概述
 
-**![](media/6af683df594671a48151bc99ef54c32c.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/7.png)**
 
-**![](media/03ec0bfb17967333d82f2c4c12973c5d.png)**![](media/9812799892a3a20f31a8c90a032a104c.png)
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/8.png)**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/9.png)
 
 2、各模块的代码实现
 
@@ -283,116 +283,116 @@ E-R模型：
 
 登录页面通过输入用户名和密码进行登录，可以选择管理员、教练、学员进行登录，密码输入时会由\*代替，保护隐私，如果没有账号则可以点击注册
 
-![](media/a1308d3453a19aadfe00551f2798cb7d.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/10.png)
 
 注册页面，通过输入用户名，两次相同的密码，邮箱以及验证码，选择教练或者学员来进行注册，如果两次密码不相同，则会提示密码不一致。
 
-![](media/319696c092d7906f22641aeb1a6dfaeb.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/11.png)
 
 学员页面：
 
-![](media/85230d242b4e97cd28af1379ce9c3635.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/12.png)
 
 登录后的学员界面，monthcalender控件运行后会隐藏，查看信息按钮能够接收教练与驾校发送的消息，并且发送消息给教练或驾校。个人信息页面能够查看并修改个人信息。预约练车页面可以预约练车时间，如果当天该时段人数已满四人则会提示重新选择预约时间。驾考成绩页面可以查询自己的驾考通过情况。题库阅览页面可以跳转到题库网页进行预习复习驾考知识点。签到按钮提供当日签到打卡功能。
 
-![](media/05a532c8c6bf21a0a9c0e10eb5bcfdd0.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/13.png)
 
 **查看消息页面**
 
-![](media/825fb4c2eb43e8ee27a4ad5dc2838c7f.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/14.png)
 
 **个人信息页面**
 
-![](media/07b93d3a631e46fbd1bb1cfeddffe560.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/15.png)
 
 **预约练车页面**
 
-![](media/82883bc231ff61208cb678d719b0adb8.png)
+![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/16.png)
 
 **驾考成绩页面**
 
-**![](media/0e7d63f4cfc625420d1a9e93067c0ec8.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/17.png)**
 
 **题库网页**
 
-**![](media/132b9f43e2fb111704e16daeb76d0d7b.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/18.png)**
 
 **签到功能**
 
 **教练页面：**
 
-**![](media/81b68f8247a1bbeefd8c2a3e913530f7.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/19.png)**
 
 登录后的教练界面，monthcalender控件运行后会隐藏。签到功能可以每日签到，可以阻止一天重复签到。个人信息页面能够查看并修改个人信息。学员信息可以查看该教练教导的学员信息。消息通知可以接收公告信息，对驾校（管理员）发消息，以及对具体学员发送消息，以及接收对方的消息。请假申报可以通过点击具体日期向管理员进行请假，所有请假信息都会被保存下来。
 
-**![](media/20c87d6df4f3d84dd232801001ffeb2f.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/20.png)**
 
 **签到功能**
 
-**![](media/60dfc9f9e2001a4d6034ac813cfc7d50.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/21.png)**
 
 **教练个人信息页面**
 
-**![](media/3504ee652330215dee2bc882e07400da.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/22.png)**
 
 **教练查询学员信息页面**
 
-**![](media/ee7936f3788f728ec50924fb4062c677.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/23.png)**
 
 **消息通知页面**
 
-**![](media/95101d6a43d8d6dd2d0d645803bed92a.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/24.png)**
 
 **请假申报页面**
 
 **管理员页面：**
 
-**![](media/f12131d0da41dbc7b72dc0986b49d4dc.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/25.png)**
 
 管理页面主要采用子窗口的模式；管理员可以对自己的个人信息进行查询修改更新操作；在我的消息中可以接收学员、教练的信息。可以添加教练，学员，更改信息，而管理员不能通过注册添加，只能管理员添加。添加学员里有年龄要满18，身份证不能相同，能够查看科目考试情况，报考日期、截至日期等等...管理员还可以查询管理员、学员、教练信息。公告有分学员公告和教练公告，通
 
 过管理员进行编辑。帮助里有查看帮助、发送反馈、检查更新功能。
 
-**![](media/631fd999afb11ae07a1c354f0b4c27b9.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/26.png)**
 
 **账户信息页面**
 
-**![](media/8a7592b1b3e0253732dba46e9bddc8f9.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/27.png)**
 
 **消息页面**
 
-**![](media/6534bfa615266173f2cdf3d9dedc0bbc.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/28.png)**
 
 **添加/更新管理员页面**
 
-**![](media/d06f440ccecd0eb3f93aba030fa4e32c.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/29.png)**
 
 **添加/更新教练页面**
 
-**![](media/5c0b611390b5679fe6cc696a7a130770.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/30.png)**
 
 **添加/更新学员页面**
 
-**![](media/719193219455e293645096df6b97d134.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/31.png)**
 
 **查询管理员信息页面**
 
-**![](media/4df55546598721f762f649978bedee3e.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/32.png)**
 
 **查询教练信息页面**
 
-**![](media/07b2f83988aef47487c194cf9f34324b.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/33.png)**
 
 **查询学员信息页面**
 
-**![](media/d8b4395a0914b3a2288f589cd88b4be5.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/34.png)**
 
 **查询请假信息页面**
 
-**![](media/008c853f1326166ebd1687e6d194da5c.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/35.png)**
 
 **公告页面**
 
-**![](media/1690bf8d50d869d829ccc23f307e0e4b.png)**
+**![](https://github.com/kybky/Driving-school-information-management-system/blob/main/image/36.png)**
 
 **小功能页面**
